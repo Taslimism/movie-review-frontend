@@ -1,0 +1,67 @@
+.form {
+  background-color: white;
+  width: 500px;
+  height: 290px;
+  border-radius: 10px;
+  padding: 2px 25px;
+  margin: 100px auto;
+  position: relative;
+}
+.form-control {
+  width: 350px;
+  height: 25px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 0 5px;
+}
+.form-control:focus {
+  outline: none;
+}
+hr {
+  border: 2px none none none;
+}
+.button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+.button:hover {
+  color: white;
+  background-color: #3a0ca3;
+  border-radius: 0;
+}
+.switch {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  padding: 0.5em;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+.switch:hover {
+  color: white;
+  background-color: #2a9d8f;
+}
+
+.title {
+  background-color: #2a9d8f;
+  margin: 10px 0 0 0;
+  padding: 0.5em;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  font-weight: 700;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

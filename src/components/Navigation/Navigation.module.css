@@ -1,0 +1,28 @@
+.auth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+}
+.name {
+  margin: 0;
+}
+
+.login,
+.signup {
+  background-color: white;
+  padding: 0.6em 0.8em;
+  color: var(--button-login);
+  border: 1px solid black;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.login:hover,
+.signup:hover {
+  background-color: var(--button-login);
+  color: white;
+  border-radius: 5px;
+}

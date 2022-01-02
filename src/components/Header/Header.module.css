@@ -1,0 +1,21 @@
+:root {
+  --button-login: #3a0ca3;
+  --header: #fff;
+}
+
+.header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: var(--header);
+  padding: 0 20px;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 20px;
+}
+
+.brand-name {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+}
